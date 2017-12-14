@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import WeatherFetcher from '../utils/WeatherFetcher';
 import {Grid, Row} from 'react-bootstrap';
 import DayWeather from './DayWeather';
@@ -10,7 +10,7 @@ import moment from 'moment'
 
 
 
-class Forecast extends Component {
+class Forecast extends React.Component {
   constructor() {
 		super();
 		this.state = {

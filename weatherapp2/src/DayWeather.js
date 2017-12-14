@@ -1,8 +1,8 @@
-import React { Component } from 'react';
+import React from 'react';
 import { Col} from 'react-bootstrap';
 import { browserHistory } from 'react-router';
 
-class DayWeather extends Component {
+class DayWeather extends React.Component {
 	constructor() {
 		super();
 		this.handleClick = this.handleClick.bind(this)
